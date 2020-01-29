@@ -6,4 +6,4 @@ target = "layouts"
 path = "github.com/alpinejs/alpine"
 [[module.imports.mounts]]
 source = "dist"
-target = "assets/vendor/alpinejs"
+target = "assets/jslibs/alpinejs"
