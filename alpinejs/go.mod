@@ -1,4 +1,4 @@
-module github.com/bep/hugo-js-libs/alpinejs
+module github.com/bep/hugo-jslibs/alpinejs
 
 go 1.13
 
