@@ -4,3 +4,5 @@ github.com/alpinejs/alpine v1.9.8 h1:57SAT4UnEWpOBVIKDDe09Hm6QzdrHydP5oDMKPSvOPc
 github.com/alpinejs/alpine v1.9.8/go.mod h1:BKI81egATMnaKqFeX5HEfYMnjZjcjcZmrYAu5Nck+EY=
 github.com/alpinejs/alpine v1.11.0 h1:mPToPuUiudVZQ7KjA97J4wMlGw4aJOET3n/52QN8tRA=
 github.com/alpinejs/alpine v1.11.0/go.mod h1:BKI81egATMnaKqFeX5HEfYMnjZjcjcZmrYAu5Nck+EY=
+github.com/alpinejs/alpine v1.12.0 h1:G/FFzMqLidX7N4nY1iWsHF8yjSMQnjaIoKqDjvOJh+s=
+github.com/alpinejs/alpine v1.12.0/go.mod h1:BKI81egATMnaKqFeX5HEfYMnjZjcjcZmrYAu5Nck+EY=
