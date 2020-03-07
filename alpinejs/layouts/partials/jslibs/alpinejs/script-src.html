@@ -1,8 +1,6 @@
 {{- $isProd := eq hugo.Environment "production" -}}
 {{- $js := resources.Get "jslibs/alpinejs/alpine.js" -}}
-{{- $jsMap := (resources.Get "jslibs/alpinejs/alpine.js.map").RelPermalink -}}
 {{- $js11 := resources.Get "jslibs/alpinejs/alpine-ie11.js" -}}
-{{- $js11Map := (resources.Get "jslibs/alpinejs/alpine-ie11.js.map").RelPermalink -}}
 {{- if $isProd }}{{ $js = $js | minify | fingerprint }}{{ end -}}
 {{- if $isProd }}{{ $js11 = $js11 | minify | fingerprint }}{{ end -}}
 <script>
