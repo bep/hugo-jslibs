@@ -1,0 +1,27 @@
+{{- $isProd := eq hugo.Environment "production" -}}
+{{- $js := resources.Get "jslibs/alpinejs/alpine.js" -}}
+{{- $js11 := resources.Get "jslibs/alpinejs/alpine-ie11.js" -}}
+{{- if $isProd }}{{ $js = $js | minify | fingerprint }}{{ end -}}
+{{- if $isProd }}{{ $js11 = $js11 | minify | fingerprint }}{{ end -}}
+
+!function (d) {
+    var src = '{{ $js.RelPermalink }}';
+    var integrity = "";
+    if (!d.currentScript) {
+        src = '{{ $js11.RelPermalink }}';
+        {{  with $js11.Data.Integrity }}
+        integrity = '{{ . }}';
+        {{ end }}
+    } else {
+        src = '{{ $js.RelPermalink }}';
+        {{  with $js.Data.Integrity }}
+        integrity = '{{ . }}';
+        {{ end }}
+    }
+    var s = d.createElement('script');
+    s.src = src;
+    s.setAttribute("defer", "");
+    s.setAttribute("integrity", integrity);
+    d.head.appendChild(s);
+
+}(document)
