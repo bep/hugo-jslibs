@@ -14,3 +14,5 @@ github.com/alpinejs/alpine v2.1.0+incompatible h1:FQ5L+dC9VyMXN3LbOTH6CLL2zEaY5E
 github.com/alpinejs/alpine v2.1.0+incompatible/go.mod h1:BKI81egATMnaKqFeX5HEfYMnjZjcjcZmrYAu5Nck+EY=
 github.com/alpinejs/alpine v2.1.1+incompatible h1:APyXkeEgNWCQgkwEPoN+l5p1Rox1cySE4HKVuIeXOA8=
 github.com/alpinejs/alpine v2.1.1+incompatible/go.mod h1:BKI81egATMnaKqFeX5HEfYMnjZjcjcZmrYAu5Nck+EY=
+github.com/alpinejs/alpine v2.2.0+incompatible h1:CLREXwNUjPpV3xX2rWxnihDmSc8Xaa/Bx2+WhqUCqiE=
+github.com/alpinejs/alpine v2.2.0+incompatible/go.mod h1:BKI81egATMnaKqFeX5HEfYMnjZjcjcZmrYAu5Nck+EY=
