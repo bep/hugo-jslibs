@@ -1,0 +1,4 @@
+{{- $isProd := hugo.IsProduction -}}
+{{- $js := resources.Get "jslibs/instantpage/instantpage.js" -}}
+{{- if $isProd }}{{ $js = $js | minify | fingerprint }}{{ end -}}
+<script src="{{ $js.RelPermalink }}" {{ if $isProd }} integrity="{{ $js.Data.Integrity }}" {{ end }}></script>
