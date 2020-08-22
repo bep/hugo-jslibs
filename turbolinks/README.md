@@ -24,3 +24,10 @@ Then add the script source in the head section of your template (typically in th
 </head>
 ```
 
+Note, if used with AlpineJS, the order matters:
+
+```html
+{{ partialCached "jslibs/alpinejs/script-src.html" "-" }}
+{{ partialCached "jslibs/turbolinks/script-src.html" "-" }}
+```
+
