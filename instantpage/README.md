@@ -14,7 +14,7 @@ Then add the script source before the end body tag:
 ```html
 <body>
 ...
-{{ partial "jslibs/instantpage/script-src.html" "-" }}
+{{ partialCached "jslibs/instantpage/script-src.html" "-" }}
 </body>
 ```
 
