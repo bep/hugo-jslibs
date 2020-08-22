@@ -1,3 +1,5 @@
+This repo is replaced by https://github.com/gohugoio/hugo-mod-jslibs -- use that instead.
+
 # Hugo JS Libraries
 
 A collection of JS libraries packaged and ready for use in Hugo.
