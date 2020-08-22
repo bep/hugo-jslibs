@@ -1,4 +1,5 @@
-# hugo-js-libs
+# Hugo JS Libraries
+
 A collection of JS libraries packaged and ready for use in Hugo.
 
-See https://agitated-kilby-da786e.netlify.com/ for some of these in action.
+See each componen's README for usage. The Hugo documentation has more information about [Hugo Modules](https://gohugo.io/hugo-modules/).
