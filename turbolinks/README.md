@@ -1,4 +1,4 @@
-# Description
+## Description
 
 This module wraps [Turbolinks](https://github.com/turbolinks).
 
