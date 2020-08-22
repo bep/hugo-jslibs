@@ -1,4 +1,4 @@
-## Use
+## Installation
 
 First, add the module import to your site or theme component's configuration's module section:
 
